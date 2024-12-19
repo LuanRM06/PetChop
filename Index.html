@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>PetChopp</title>
+</head>
+<body>
+    <div id="topo">
+        <img src="logo.png" alt="Logo PetChopp">
+        <h1>PetChopp</h1>
+    </div>
+
+    <div class="nav">
+        <div id="insert">
+            <form action="">
+                <h1>Marque o Serviço do Seu Pet</h1>
+                <label for="PetName">Nome do Animal</label>
+                <input type="text" id="PetName" placeholder="Digite o nome do animal">
+                <label for="PetRace">Raça</label>
+                <input type="text" id="PetRace" placeholder="Digite a raça">
+                <label for="Owner">Nome do Dono</label>
+                <input type="text" id="Owner" placeholder="Digite o nome do dono">
+                <label for="Phone">Telefone</label>
+                <input type="number" id="Phone" placeholder="Digite o telefone">
+                <button id="Send" type="submit">Marcar Serviço</button>
+            </form>
+        </div>
+
+        <div id="output">
+            <h1>Histórico de Agendamentos</h1>
+            <p id="table">
+                Nenhum dado disponível no momento.
+            </p>
+        </div>
+    </div>  
+
+    <script src="script.js"></script>
+</body>
+</html>
